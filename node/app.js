@@ -22,7 +22,7 @@ try {
 app.use('/users',userRoutes);
 
 //Rutas para proveedores
-app.use('/proveedor',proveedorRoutes);
+app.use('/proveedors',proveedorRoutes);
 
 //Ruta de prueba
 app.get('/',(req,res)=>{
